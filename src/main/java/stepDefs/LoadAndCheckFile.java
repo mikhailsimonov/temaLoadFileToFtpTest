@@ -10,7 +10,7 @@ public class LoadAndCheckFile {
 
     @Before
     public void loadFile(){
-      loadFileInFtp(" ","");
+      loadFileInFtp("src/main/resources/cbr/archive_87798888887979878.cbr","archive_87798888887979878.cbr");
     }
 
     @Test

@@ -14,8 +14,8 @@ public class FtpConnection {
         File outArxFile=new File(filePath);
         FTPClient ftpClient = new FTPClient();
         try {
-            ftpClient.connect("127.0.0.1");
-            ftpClient.login("user", "rassword");
+            ftpClient.connect("ftp04.temafon.ru");
+            ftpClient.login("ftp_tkiosk_test", "LBZh#IVPjHoeRWB4t4e$Upxi");
             ftpClient.changeWorkingDirectory("in");
             InputStream in = new FileInputStream(outArxFile);
             ftpClient.appendFile(fileName, in);
