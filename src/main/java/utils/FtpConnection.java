@@ -9,7 +9,7 @@ import java.io.InputStream;
 
 public class FtpConnection {
 
-    public static void loadFileInFtp(String filePath, String fileName){
+    public static void loadFileInFtp (String filePath, String fileName){
 
         File outArxFile=new File(filePath);
         FTPClient ftpClient = new FTPClient();

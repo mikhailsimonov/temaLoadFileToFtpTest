@@ -10,7 +10,7 @@ public class LoadAndCheckFile {
 
     @Before
     public void loadFile(){
-      loadFileInFtp("","");
+      loadFileInFtp(" ","");
     }
 
     @Test
